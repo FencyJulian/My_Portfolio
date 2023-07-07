@@ -295,11 +295,11 @@ img{
     margin-bottom: 2rem;
   }
   .about{
-    width:300px;
+    width:230px;
     margin: 1rem;
   }
    .timeline{
-    width:300px;
+    width:230px;
     margin: 1rem;
   }
   .timeline ul li .content h3{
@@ -307,15 +307,19 @@ img{
     font-size:15px;
   }
   .timeline ul li .content p{
-    padding:3px 0px 7px 0px;
+    
     font-size:12px;
   }
 
   .project-block {
-    width:300px;
+    width:230px;
     margin: 1rem;
   }
     
+  .contact-section{
+    width: 230px;
+    margin: 10px;
+  }
   }
 
   
