@@ -296,6 +296,7 @@ img{
   }
   .about{
     width:240px;
+    text-align: justify;
     margin: 1rem;
   }
    .timeline{
@@ -318,7 +319,8 @@ img{
     
   .contact-section{
     width: 230px;
-    margin: 0rem;
+    
+    align-items: center;
   }
   }
 
