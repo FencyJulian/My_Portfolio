@@ -171,7 +171,7 @@ img{
 
 .project-block h2 {
   font-size: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
 }
 
 .project-block p {
@@ -193,7 +193,8 @@ img{
 /*skills*/
 
 .skill-icons i {
-  color: #888; /* Initial grey color */
+  color: #888; 
+  margin: 10px;
 }
 
 .skill-icons i:hover {
@@ -208,7 +209,7 @@ img{
 /*contact*/
 
 .contact-section {
-  width: 500px; /* Adjust the width as needed */
+  width: 100%;
   padding: 20px;
   border-radius: 10px;
   background-color: #0f172a;
@@ -226,22 +227,23 @@ img{
 .contact-section form {
   display: flex;
   flex-direction: column;
-  align-items:flex-start;
-  margin: 2rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .contact-section label {
   font-weight: bold;
-  margin-bottom: 5px;
 }
 
 .contact-section input,
 .contact-section textarea {
+  flex-basis: 100%;
+  padding: 15px;
   width: 100%;
-  padding: 10px;
-  margin-bottom: 15px;
-  border-radius: 5px;
   border: 1px solid #ccc;
+  border-radius: 6px;
+  margin: 20px auto;
+  outline: none;
 }
 
 .contact-section button {
