@@ -228,8 +228,8 @@ li:hover {
 .skill-icons i {
   color: #888;
   font-size: 40px;
-  margin: 15px;
-  padding: 25px;
+  margin: 12px;
+  padding: 20px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
   border-radius: 4px;
 }
