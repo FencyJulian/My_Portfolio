@@ -63,8 +63,11 @@ body {
   color: #9799ac;
 }
 
-.icons {
+.icons a{
   white-space: nowrap;
+  color: rgb(214, 218, 245);
+  
+    text-decoration: none;
 }
 
 .icons i {
